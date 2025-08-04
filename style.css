@@ -1,0 +1,41 @@
+.colorbox{
+  
+ height: 300px;
+  width: 500px;
+  border: 2px solid rgb(71,122,124);
+  transition: background-color 0.5s ease;
+  margin: 20px auto;
+  line-height: 300px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 5px 5px 5px rgb(57, 107, 109);
+  
+}
+body{
+  text-align: center;
+  line-height : 50px;
+  
+ }
+
+ body {
+  background-color: azure;
+}
+ button{
+  border-radius: 50%;
+  height : 100px;
+  width : 100px;
+ border-color : rgb(39,172,184);
+
+
+ }
+ @media (max-width : 700px) {
+  .colorbox{
+    width : 200px;
+  }
+  
+ }
+ button:hover {
+  background-color: rgb(39, 172, 184);
+  color: white;
+  cursor: pointer;
+}
